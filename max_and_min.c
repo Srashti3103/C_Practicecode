@@ -16,6 +16,6 @@ int main()
         min=arr[i];
        }
     }
-    printf("Max element :  %d\n",max);
-    printf("Min element :  %d\n",min);
+    printf("Max element :  %d\n",max);//max element in array
+    printf("Min element :  %d\n",min);//min element in array
 }
