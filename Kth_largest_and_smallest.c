@@ -8,7 +8,7 @@ int main() {
     printf("Enter number of elements: ");
     scanf("%d", &m);
 
-    int arr[m];  // ✅ Now 'm' is known, so this is valid
+    int arr[m];  
 
     // Input: elements of array
     printf("Enter elements:\n");
@@ -26,7 +26,6 @@ int main() {
         return 1;
     }
 
-    // Sort the array (Bubble Sort)
     for (int i = 0; i < m - 1; i++) {
         for (int j = i + 1; j < m; j++) {
             if (arr[i] > arr[j]) {
