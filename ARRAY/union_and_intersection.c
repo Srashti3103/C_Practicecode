@@ -2,6 +2,7 @@
 #include<stdio.h>
 int main()
 {
+    
     //intialize array and variables
     int a[10],b[10],u[20],i,j,k=0,l=0,m=0,n;
     //input size and element of array
